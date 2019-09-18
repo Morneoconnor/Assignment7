@@ -37,7 +37,7 @@ public class StudentControllerTest {
 
         HttpEntity<String> entity = new HttpEntity<String>(null, headers);
         ResponseEntity<String> response = restTemplate.withBasicAuth("student","student").exchange(baseURL + "authentication/create/",
-                HttpMethod.GET, entity, String.class, authenticationquestions);
+                HttpMethod.POST, entity, String.class, authenticationquestions.toString());
         assertNotNull(response.getBody());
     }
     @Test
@@ -51,7 +51,7 @@ public class StudentControllerTest {
 
 
         HttpEntity<String> entity = new HttpEntity<String>(null, headers);
-        ResponseEntity<String> response = restTemplate.exchange(baseURL + "blackboardnewpassword/create/",
+        ResponseEntity<String> response = restTemplate.withBasicAuth("student","student").exchange(baseURL + "blackboardnewpassword/create/",
                 HttpMethod.POST, entity, String.class, blackboardnewpassword);
         assertNotNull(response.getBody());
     }
@@ -62,7 +62,7 @@ public class StudentControllerTest {
                 BlackBoardPasswordFactory.createBlackBoardPassword("Password12", 1);
 
         HttpEntity<String> entity = new HttpEntity<String>(null, headers);
-        ResponseEntity<String> response = restTemplate.exchange(baseURL + "blackboardpassword/create/",
+        ResponseEntity<String> response = restTemplate.withBasicAuth("student","student").exchange(baseURL + "blackboardpassword/create/",
                 HttpMethod.POST, entity, String.class, blackboardpassword);
         assertNotNull(response.getBody());
     }
@@ -73,7 +73,7 @@ public class StudentControllerTest {
                 CourseRegistrationFactory.createCourseRegistration("App Dev", 123);
 
         HttpEntity<String> entity = new HttpEntity<String>(null, headers);
-        ResponseEntity<String> response = restTemplate.exchange(baseURL + "courseregistration/create/",
+        ResponseEntity<String> response = restTemplate.withBasicAuth("student","student").exchange(baseURL + "courseregistration/create/",
                 HttpMethod.POST, entity, String.class, courseregistration);
         assertNotNull(response.getBody());
     }
@@ -84,7 +84,7 @@ public class StudentControllerTest {
                 CourseSubjectsFactory.createCourseRegistration("Prof Comm", 123);
 
         HttpEntity<String> entity = new HttpEntity<String>(null, headers);
-        ResponseEntity<String> response = restTemplate.exchange(baseURL + "courseregistration/create/",
+        ResponseEntity<String> response = restTemplate.withBasicAuth("student","student").exchange(baseURL + "courseregistration/create/",
                 HttpMethod.POST, entity, String.class, coursesubjects);
         assertNotNull(response.getBody());
     }
@@ -95,7 +95,7 @@ public class StudentControllerTest {
                 PasswordRequirementsFactory.createPasswordRequirements("PPPPPP", 6, 1);
 
         HttpEntity<String> entity = new HttpEntity<String>(null, headers);
-        ResponseEntity<String> response = restTemplate.exchange(baseURL + "passwordrequirements/create/",
+        ResponseEntity<String> response = restTemplate.withBasicAuth("student","student").exchange(baseURL + "passwordrequirements/create/",
                 HttpMethod.POST, entity, String.class, passwordrequirements);
         assertNotNull(response.getBody());
     }
@@ -106,7 +106,7 @@ public class StudentControllerTest {
                 SOSNewPasswordFactory.createSOSNewPassword("Password123!", 1);
 
         HttpEntity<String> entity = new HttpEntity<String>(null, headers);
-        ResponseEntity<String> response = restTemplate.exchange(baseURL + "sosnewpassword/create/",
+        ResponseEntity<String> response = restTemplate.withBasicAuth("student","student").exchange(baseURL + "sosnewpassword/create/",
                 HttpMethod.POST, entity, String.class, sosnewpassword);
         assertNotNull(response.getBody());
     }
@@ -117,7 +117,7 @@ public class StudentControllerTest {
                 SOSPasswordFactory.createSOSPassword("Password12", 1);
 
         HttpEntity<String> entity = new HttpEntity<String>(null, headers);
-        ResponseEntity<String> response = restTemplate.exchange(baseURL + "sospassword/create/",
+        ResponseEntity<String> response = restTemplate.withBasicAuth("student","student").exchange(baseURL + "sospassword/create/",
                 HttpMethod.POST, entity, String.class, sospassword);
         assertNotNull(response.getBody());
     }
@@ -129,7 +129,7 @@ public class StudentControllerTest {
                         ("Morne","OConnor","123","123","morne@test.com");
 
         HttpEntity<String> entity = new HttpEntity<String>(null, headers);
-        ResponseEntity<String> response = restTemplate.exchange(baseURL + "studentpersonalinformation/create/",
+        ResponseEntity<String> response = restTemplate.withBasicAuth("student","student").exchange(baseURL + "studentpersonalinformation/create/",
                 HttpMethod.POST, entity, String.class, studentpersonalinformation);
         assertNotNull(response.getBody());
     }
