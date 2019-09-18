@@ -2,73 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffb6bc1b-8981-47c1-ad24-3f724d6b02d8" name="Default Changelist" comment="Default Changelist">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cputpassword/service/admin/IAdminAuthenticationQuestionService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cputpassword/service/admin/IAdminBlackBoardNewPasswordService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cputpassword/service/admin/IAdminBlackBoardPasswordService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cputpassword/service/admin/IAdminCourseRegistrationService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cputpassword/service/admin/IAdminCourseSubjectsService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cputpassword/service/admin/IAdminPasswordRequirementsService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cputpassword/service/admin/IAdminPersonalInformationService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cputpassword/service/admin/IAdminSOSNewPasswordService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cputpassword/service/admin/IAdminSOSPasswordService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cputpassword/service/admin/IAdminService.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/sms.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/caniksea/controller/admin/CourseControllerTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/sms.kotlin_module" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/caniksea/SMSApplication.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/caniksea/controller/admin/CourseController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/caniksea/domain/admin/Course$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/caniksea/domain/admin/Course$Builder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/caniksea/domain/admin/Course.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/caniksea/domain/admin/Department.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/caniksea/domain/people/Student$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/caniksea/domain/people/Student$Builder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/caniksea/domain/people/Student.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/caniksea/factory/admin/CourseFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/caniksea/factory/people/StudentFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/caniksea/repository/IRepository.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/caniksea/repository/admin/CourseRepository.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/caniksea/repository/admin/DepartmentRepository.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/caniksea/repository/people/StudentRepository.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/caniksea/repository/people/impl/StudentRepositoryImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/caniksea/service/IService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/caniksea/service/admin/CourseService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/caniksea/service/admin/impl/CourseServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/caniksea/util/Misc.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/META-INF/sms.kotlin_module" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/caniksea/factory/admin/CourseFactoryTest.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/caniksea/SMSApplication.java" afterPath="$PROJECT_DIR$/src/main/java/cputpassword/PasswordApplication.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/caniksea/controller/IndexController.java" afterPath="$PROJECT_DIR$/src/main/java/cputpassword/controller/IndexController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/caniksea/controller/admin/CourseController.java" afterPath="$PROJECT_DIR$/src/main/java/cputpassword/controller/admin/AdminController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/caniksea/controller/people/StudentController.java" afterPath="$PROJECT_DIR$/src/main/java/cputpassword/controller/student/StudentController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/caniksea/domain/admin/Course.java" afterPath="$PROJECT_DIR$/src/main/java/cputpassword/domain/admin/Course.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/caniksea/domain/admin/Department.java" afterPath="$PROJECT_DIR$/src/main/java/cputpassword/domain/admin/Department.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/caniksea/domain/people/Student.java" afterPath="$PROJECT_DIR$/src/main/java/cputpassword/domain/student/Student.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/caniksea/factory/admin/CourseFactory.java" afterPath="$PROJECT_DIR$/src/main/java/cputpassword/factory/admin/CourseFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/caniksea/factory/people/StudentFactory.java" afterPath="$PROJECT_DIR$/src/main/java/cputpassword/factory/student/StudentFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/caniksea/repository/IRepository.java" afterPath="$PROJECT_DIR$/src/main/java/cputpassword/repository/IRepository.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/caniksea/repository/admin/CourseRepository.java" afterPath="$PROJECT_DIR$/src/main/java/cputpassword/repository/admin/CourseRepository.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/caniksea/repository/admin/DepartmentRepository.java" afterPath="$PROJECT_DIR$/src/main/java/cputpassword/repository/admin/DepartmentRepository.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/caniksea/repository/admin/impl/CourseRepositoryImpl.java" afterPath="$PROJECT_DIR$/src/main/java/cputpassword/repository/admin/impl/CourseRepositoryImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/caniksea/repository/admin/impl/DepartmentRepositoryImpl.java" afterPath="$PROJECT_DIR$/src/main/java/cputpassword/repository/admin/impl/DepartmentRepositoryImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/caniksea/repository/people/StudentRepository.java" afterPath="$PROJECT_DIR$/src/main/java/cputpassword/repository/student/StudentRepository.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/caniksea/repository/people/impl/StudentRepositoryImpl.java" afterPath="$PROJECT_DIR$/src/main/java/cputpassword/repository/student/impl/StudentRepositoryImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/caniksea/service/IService.java" afterPath="$PROJECT_DIR$/src/main/java/cputpassword/service/IService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/caniksea/service/admin/CourseService.java" afterPath="$PROJECT_DIR$/src/main/java/cputpassword/service/admin/CourseService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/caniksea/service/admin/impl/CourseServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/cputpassword/service/admin/impl/CourseServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/caniksea/service/people/Impl/StudentServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/cputpassword/service/student/Impl/StudentServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/caniksea/service/people/StudentService.java" afterPath="$PROJECT_DIR$/src/main/java/cputpassword/service/student/StudentService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/caniksea/util/Misc.java" afterPath="$PROJECT_DIR$/src/main/java/cputpassword/util/Misc.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/caniksea/controller/people/StudentControllerTest.java" afterPath="$PROJECT_DIR$/src/test/java/cputpassword/controller/student/StudentControllerTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/caniksea/factory/admin/CourseFactoryTest.java" afterPath="$PROJECT_DIR$/src/test/java/cputpassword/factory/admin/CourseFactoryTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/caniksea/factory/people/StudentFactoryTest.java" afterPath="$PROJECT_DIR$/src/test/java/cputpassword/factory/student/StudentFactoryTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/caniksea/repository/admin/CourseRepositoryImplTest.java" afterPath="$PROJECT_DIR$/src/test/java/cputpassword/repository/admin/CourseRepositoryImplTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/caniksea/repository/people/StudentRepositoryTest.java" afterPath="$PROJECT_DIR$/src/test/java/cputpassword/repository/student/StudentRepositoryTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/caniksea/service/admin/CourseServiceImplTest.java" afterPath="$PROJECT_DIR$/src/test/java/cputpassword/service/admin/CourseServiceImplTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/caniksea/service/people/StudentServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/cputpassword/service/student/StudentServiceTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sms.iml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -147,7 +83,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StudentControllerTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StudentControllerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/cputpassword/controller/student/StudentControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="96">
@@ -164,6 +100,16 @@
                 <element signature="e#4896#4904#0" expanded="true" />
                 <element signature="e#5464#5472#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -193,16 +139,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="669" column="0" lean-forward="false" selection-start-line="669" selection-start-column="0" selection-end-line="669" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CourseSubjectsService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cputpassword/service/student/Impl/CourseSubjectsService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -245,7 +181,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/cputpassword/service/student/IBlackBoardPasswordService.java" />
         <option value="$PROJECT_DIR$/src/main/java/cputpassword/service/student/ICourseRegistrationService.java" />
         <option value="$PROJECT_DIR$/src/main/java/cputpassword/service/student/ICourseSubjectsService.java" />
         <option value="$PROJECT_DIR$/src/main/java/cputpassword/service/student/IPasswordRequirementsService.java" />
@@ -296,6 +231,7 @@
         <option value="$PROJECT_DIR$/src/test/java/cputpassword/controller/student/StudentControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/cputpassword/controller/admin/AdminControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/cputpassword/security/GetOut.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -741,7 +677,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557678078575</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Default Changelist">
+      <created>1568807162162</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1568807162224</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -829,21 +772,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated" />
+    <MESSAGE value="Default Changelist" />
+    <option name="LAST_COMMIT_MESSAGE" value="Default Changelist" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/cputpassword/repository/student/impl/CourseRegistrationRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.6.RELEASE/spring-web-5.1.6.RELEASE.jar!/org/springframework/web/client/RestTemplate.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -1276,6 +1212,14 @@
             <element signature="e#4896#4904#0" expanded="true" />
             <element signature="e#5464#5472#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
